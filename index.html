@@ -29,21 +29,21 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    
+
     min-height: 100%;
 	background-color: rgba(58,133,123,1.00);
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    
+
     min-height: 400px;
 	background-color: rgba(58,133,123,1.00);
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    
+
     min-height: 400px;
 	background-color: rgba(58,133,123,1.00);
 }
@@ -96,7 +96,7 @@ body, html {
       <p>Welcome to my website! I am a Year 2 Computer Engineering undegraduate from the National University of Singapore. I am an avid programmer who loves to learn new things. I believe in continously improving myself in my current skillsets, and also pursuing new ones.</p>
 		<p> My interests are Web and Game Development. Check out my github page to view my projects!</p>
     </div>
-	  
+
   </div><!--
   <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
   <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
@@ -111,7 +111,7 @@ body, html {
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
-</div> 
+</div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
@@ -130,7 +130,7 @@ body, html {
     <span class="w3-xlarge">150+</span><br>
     Meetings
 -->
-</div> 
+</div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
@@ -145,7 +145,26 @@ body, html {
   <p class="w3-center"><em>Here are some of my latest projects!<br> Click on the images to make them bigger</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
+  
+    <h4 class="w3-center">Bluebird</h4>
+    <img src="./images/bluebirdUI.png" style = "width:100%" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="UI Screen">
+    <p>Bluebird is a desktop based organisational tool designed for working parent on the go, developed during our CS2103.</p>
+    <p>The intended target audience for Bluebird was mainly working parents. Our application helps both a parent and their child to manage important tasks schedules, and contacts. We consulted parents with young computer-savvy children for insights on our application before working on further features for Bluebird.
+       We showed parents our first prototype which included the basic features of creating tasks/ schedules and organising contacts.
+      Some insights we got from interviews with parents were:</p>
+      <p> -	The child should not be able to edit heir parents’ schedules or tasks.</p>
+      <p> -	The parent should be able to access their child’s schedules or tasks.</p>
+      <p> -	The parent should be able to put important contacts in the child’s contact book.</p>
+      <p> -	The tasks should be able to understand what their child keys in the command bar.</p>
+      <p>From there we went on to develop more features for our application based on the insights we received from our users. We had to ensure that the users we have in mind would find our app beneficial.</p>
+
+    <h4 class="w3-center">EZCommute</h4>
+    <img src="./images/comicstrip.jpg" style = "width:100%" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Storyboard">
+    <p>A storyboard designed for an application to help commuters find their way in Singapore's public transportation system.</p>
+    <p>The application is intended for commuters, especially tourists. The purpose of this application is to provide the users with
+    a way to view all the different stations for more details. The need for this application arises from the confusion that most commuters
+    face due to the increasing number of different MRT lines and stations.</p>
+<div class="w3-row-padding w3-center">
     <div class="w3-col m3">
       <img src="./images/abstract.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
     </div>
@@ -182,7 +201,7 @@ body, html {
 </div>
 <button class="w3-button w3-margin-center w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "photos.html">MORE PHOTOS</a></button>
 <button class="w3-button w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "game.html">MORE GAMES</a></button>
-  
+
 </div>
 
 <!-- Modal for full size images on click-->
@@ -249,7 +268,7 @@ body, html {
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
- 
+
 <!-- Add Google Maps -->
 <script>
 function myMap()
