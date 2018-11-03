@@ -62,7 +62,8 @@ body, html {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar" id="myNavbar"><a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onClick="toggleFunction()" title="Toggle Navigation Menu"> <em class="fa fa-bars"></em> </a> <a href="#home" class="w3-bar-item w3-button">HOME</a> <a href="#about" class="w3-bar-item w3-button w3-hide-small"><em class="fa fa-user"></em> ABOUT</a> <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><em class="fa fa-th"></em> PORTFOLIO</a> <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><em class="fa fa-envelope"></em> CONTACT</a> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"> <em class="fa fa-search"></em> </a></div>
+  <div class="w3-bar" id="myNavbar"><a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onClick="toggleFunction()" title="Toggle Navigation Menu"> <em class="fa fa-bars"></em> </a> <a href="#home" class="w3-bar-item w3-button">HOME</a> <a href="#about" class="w3-bar-item w3-button w3-hide-small"><em class="fa fa-user"></em> ABOUT</a> <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><em class="fa fa-th"></em> PORTFOLIO</a> <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><em class="fa fa-envelope"></em> CONTACT</a> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"> <!-- <em class="fa fa-search">--></em> </a></div>
+  <!-- Remove anything that is not used, Design Principle -->
 
   <!-- Navbar on small screens -->
 
@@ -70,7 +71,7 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  <!--   <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
   </div>
 </div>
 
@@ -148,8 +149,10 @@ body, html {
 
     <h4 class="w3-center"><font color="darkslategrey">Bluebird</font></h4>
     <img src="./images/bluebirdUI.png" style = "width:100%" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="UI Screen">
+    <font color="darkslategrey">
     <p>Bluebird is a desktop based organisational tool designed for working parents on the go.</p>
-    <p>The intended target audience for Bluebird was mainly working parents, and their children. Our application helps both a parent and their child to manage important tasks schedules, and contacts. We consulted parents with young computer-savvy children for insights on our application before working on further features for Bluebird.
+    <p>The intended target audience for Bluebird was mainly working parents, and their children. Our application helps both a parent and their child to manage important tasks schedules, and contacts.
+       We consulted parents with young computer-savvy children for insights on our application before working on further features for Bluebird.
        We showed parents our first prototype which included the basic features of creating tasks/ schedules and organising contacts.
        Some insights we got from interviews with parents were:</p>
       <p> -	The child should not be able to edit heir parents’ schedules or tasks.</p>
@@ -157,7 +160,8 @@ body, html {
       <p> -	The parent should be able to put important contacts in the child’s contact book.</p>
       <p> -	The tasks should be able to understand what their child keys in the command bar.</p>
       <p>From there we went on to develop more features for our application based on the insights we received from our users. We had to ensure that the users we have in mind would find our app beneficial.</p>
-      <p><font color="dimgray">Here are the features that we've included after getting feedback from our users: (more details can be found in our <a href = "https://github.com/aziziazfar/addressbook-level4/blob/master/docs/UserGuide.adoc">user guide</a>)</font></p>
+      <p><b>Here are the features that we've included after getting feedback from our users: (more details can be found in our
+        <a href = "https://github.com/aziziazfar/addressbook-level4/blob/master/docs/UserGuide.adoc">user guide</a>)</b></p>
       <p> -	A parental lock feature where only the parent knows the password.</p>
       <p>This feature allows parents to set a password and restrict their child's activity within the app while it is in 'Child Mode'
         The child will no longer be able to delete any contacts, or access any features limited to the parent which is only accessible
@@ -169,7 +173,7 @@ body, html {
 
       <h4 class="w3-center"><font color="darkslategrey">Portfolio Site</font></h4>
       <img src="./images/portfoliosite.png" style = "width:100%" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Storyboard">
-      <p>The design process for my portfolio.</p>
+      <p>Above is the wireframing done for my portfolio site.</p>
       <p>This website is used to display all the projects that I have worked on in addition to my github account.</p>
       <div class="w3-center">
         <img src="./images/abstract.jpg" style="width:65%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
@@ -179,6 +183,10 @@ body, html {
       <h4 class="w3-center"><font color="darkslategrey">Revisione</font></h4>
       <p> A project build by a group of 4 members : Daniel, Benjamin, Reuben and me. Our project aims to build a community of "trusted" sellers/buyers for our users with a unified platform to seek reviews on a particular seller
         or to provide personal feedback.</p>
+
+      <h4 class="w3-center"><font color="darkslategrey">Don't Eat My Sheep</font></h4>
+
+      </font>
 <!-- <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
       <img src="./images/abstract.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
@@ -214,8 +222,9 @@ body, html {
       <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>-->
 </div>
-<button class="w3-button w3-margin-center w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "photos.html">MORE PHOTOS</a></button>
-<button class="w3-button w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "game.html">MORE GAMES</a></button>
+<button class="w3-button w3-margin-center w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "Resume.pdf">My Resume</a></button>
+<!-- Not necessary for now, unless I decide to put into the list of works for my portfolio instead -->
+<!-- <button class="w3-button w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "game.html">SpaceShooter Game</a></button> -->
 
 </div>
 
