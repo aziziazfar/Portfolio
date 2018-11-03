@@ -95,7 +95,7 @@ body, html {
     <!-- To hide this text on small devices use this  w3-hide-small -->
     <div class="w3-col m6 w3-padding-large">
       <p>Welcome to my website! I am a Year 3 Computer Engineering undegraduate from the National University of Singapore. I am an avid programmer who loves to learn new things. I believe in continously improving myself in my current skillsets, and also pursuing new ones.</p>
-		<p> My interests are Web and Game Development. Check out my github page to view my projects!</p>
+		<p> My interests are Web and Game Development. Check out my <a href = "https://github.com/aziziazfar/">github page</a> to view more of my projects!</p>
     </div>
 
   </div><!--
@@ -172,6 +172,50 @@ body, html {
       <p> Parents can easily
       <p> -	The tasks should be able to understand what their child keys in the command bar.</p>
 
+      <!-- Dont Eat My Sheep, NM3216 Project-->
+      <h4 class="w3-center"><font color="darkslategrey">Don't Eat My Sheep</font></h4>
+      <div class="w3-row-padding w3-center">
+          <div class="w3-col m3">
+            <img src="./images/splashscreen.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Splashscreen">
+          </div>
+
+          <div class="w3-col m3">
+            <img src="./images/mainmenu.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Main Menu">
+          </div>
+
+          <div class="w3-col m3">
+            <img src="./images/instructions.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Instructions Screen">
+          </div>
+
+          <div class="w3-col m3">
+            <img src="./images/game.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+          </div>
+        </div>
+        <p> "Don't Eat My Sheep" is a 2D tower defense game made by 4 members from the National University of Singapore.</p>
+        <ul>
+        <font color = "darkslategray">
+          <li>Producer - Tan Jing Wei</li>
+          <li>Programmer - Azizi Azfar</li>
+          <li>Content/ Asset Developer - Neo Shi Yi</li>
+          <li>Game Designer/ Writer - Boo Shangyou</li>
+          <li>QA/Testing - Denise Chong Jun Li</li>
+        </font>
+      </ul>
+      <p>The game is targeted at a casual audience and does not need any prior game experience. It is designed to be a tower defense game.
+      However, the difference between our game and many others out there, is that this is a top-down 2D tower defense game.
+      The player can control the in-game character to move around the map and defend the main objective from being attacked by the enemies.</p>
+
+      <!--EZCommute SToryBoard-->
+      <h4 class="w3-center"><font color="darkslategrey">EZCommute</font></h4>
+      <img src="./images/comicstrip.jpg" style = "width:100%" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Storyboard">
+      <p>This storyboard features the reasoning behind the idea for tis application. It portrays a confused user’s journey In an MRT station especially
+         the interchange station with multiple MRT Lines (Downtown Line, Circle Line, North -East Line etc.).</p>
+      <p>The idea for the application was to provide users with a detailed information of the different lines within the palm their hands.
+         The main intended audience for this application is tourists who are not familiar with how Singapore’s transport system works.
+         Currently, there are a lot of existing applications that aims to achieve this. However, those applications do not show any detailed information
+         of the Stations itself and the landmarks nearby.</p>
+
+      <!-- Portfolio site -->
       <h4 class="w3-center"><font color="darkslategrey">Portfolio Site</font></h4>
       <img src="./images/portfoliosite.png" style = "width:100%" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Storyboard">
       <p>Above is the wireframing done for my portfolio site.</p>
@@ -185,36 +229,6 @@ body, html {
       <p> A project build by a group of 4 members : Daniel, Benjamin, Reuben and me. Our project aims to build a community of "trusted" sellers/buyers for our users with a unified platform to seek reviews on a particular seller
         or to provide personal feedback.</p>
 
-      <h4 class="w3-center"><font color="darkslategrey">Don't Eat My Sheep</font></h4>
-
-
-<div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="./images/splashscreen.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Splashscreen">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="./images/mainmenu.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Main Menu">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="./images/instructions.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Instructions Screen">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="./images/game.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-  <p> "Don't Eat My Sheep" is a 2D tower defense game made by 4 members from the National University of Singapore.</p>
-  <ul>
-    <font color = "darkslategray">
-      <li>Producer - Tan Jing Wei</li>
-      <li>Programmer - Azizi Azfar</li>
-      <li>Content/ Asset Developer - Neo Shi Yi</li>
-      <li>Game Designer/ Writer - Boo Shangyou</li>
-      <li>QA/Testing - Denise Chong Jun Li</li>
-    </font>
-  </ul>
   </font>
 <!--
   <div class="w3-row-padding w3-center w3-section">
@@ -234,10 +248,10 @@ body, html {
       <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>-->
 </div>
-<button class="w3-button w3-margin-center w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "Resume.pdf">My Resume</a></button>
+<div class="w3-center">
+  <button class="w3-button w3-margin-center w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "Resume.pdf">My Resume</a></button>
 <!-- Not necessary for now, unless I decide to put into the list of works for my portfolio instead -->
 <!-- <button class="w3-button w3-padding-large w3-dark-grey" style="margin-top:64px"><a href = "game.html">SpaceShooter Game</a></button> -->
-
 </div>
 
 <!-- Modal for full size images on click-->
